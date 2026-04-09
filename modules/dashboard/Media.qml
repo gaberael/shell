@@ -109,9 +109,9 @@ Item {
                 y: visualiser.centerY + (visualiser.innerY + visualiserBar.strokeWidth / 2 + visualiserBar.magnitude) * visualiserBar.sin
             }
 
-            Behavior on strokeColor {
-                CAnim {}
-            }
+            //Behavior on strokeColor {
+            //    CAnim {}
+            //}
         }
     }
 
